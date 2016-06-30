@@ -1,0 +1,106 @@
+/*HEADER*/
+
+.logo {
+	margin-top: 41px; 
+	margin-bottom: 41px;
+	margin-left: 47px;
+	margin-right: 47px;
+	}
+
+.menu {
+	margin-left: 50px;
+	margin-right: 55px;
+	margin-bottom: 40px;
+	background: rgb(94,94,94); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(94,94,94,1) 0%, rgba(92,92,92,1) 15%, rgba(78,78,78,1) 56%, rgba(69,67,68,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(94,94,94,1) 0%,rgba(92,92,92,1) 15%,rgba(78,78,78,1) 56%,rgba(69,67,68,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(94,94,94,1) 0%,rgba(92,92,92,1) 15%,rgba(78,78,78,1) 56%,rgba(69,67,68,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#454344',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.menu li{
+	display: inline-block;
+	padding: 17px 65px 17px 65px;
+
+}
+.menu li:hover {
+	background: #393939;
+	border-left: #838383 1px solid;
+	border-right: #838383 1px solid;
+}
+.link{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+/*CONTAINER*/
+#container{
+	margin: 50px;
+	overflow: auto;
+}
+.left_menu {
+	margin: 0px 50px 0px 0px; 
+	width: 240px;
+	float: left;
+	clear: bottom;
+	
+}
+.left_menu_a {
+	display: block;
+	padding: 15px;
+	border: 1px solid #c8c8c8;
+	text-align: center;
+	text-decoration: none;
+	color: #7a7878;
+}
+.left_menu_a:hover {
+	background: #f9f9f9;
+	color: black;
+}
+
+.content {
+	overflow: hidden;
+	width: 950px;
+	height: 570px;
+	padding: 0px;
+	
+}
+.image{
+    border: 1px solid #c8c8c8;
+	margin: 0px 0px 40px 0px;
+	padding: 0px;
+	background-image: url(../img/bicycle.jpg);
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-position-x: center;
+	width: 945px;
+	height: 400px;
+}
+.content p{
+	padding: 0px 30px 0px 30px;
+}
+/*Footer*/
+.footer {
+	margin: 60px 50px 50px 50px;
+	background: #e1e1e1;
+	font-size: 20px;
+	
+}
+.footer li{
+	display: inline-block;
+	padding: 17px 65px 17px 65px;
+}
+.footer_a{
+	color: #444444;
+	text-decoration: none;
+	
+}
+.footer_a:hover{
+	text-decoration: underline;
+}
+.rights {
+	color: #444444;
+	text-decoration: none;
+}
+
+
